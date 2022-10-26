@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+    <head>
+        <meta charset="UTF-8">
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <img class="image" src="AnyConvcom__Review-Your-Current-Work-Style_Temp-2000x1000.png"  alt="people writing code" />
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Thank you for taking the time to fill this form</p>
+        <form id="survey-form">
+            <label id="name-label">Name <input id="name" type="text" placeholder="Enter your name" required /></label>
+            <label id="email-label">Email <input id="email" type="email" placeholder="Enter your email" required /></label>
+            <label id="number-label">Age <input id="number" type="number" placeholder="Age" min="10" max="99" /></label>
+            <label>Which option best describes your current role?
+                <select id="dropdown">
+                    <option value="" selected disabled>Select current role</option>
+                    <option value="1">Student</option>
+                    <option value="2">Full Time Job</option>
+                    <option value="3">Full Time Learner</option>
+                    <option value="4">Prefer not to say</option>
+                    <option value="5">Other</option>
+                </select>
+            </label>
+            <label>Would you recommend my coding skills to a friend?</label>
+            <label><input value="1" type="radio" class="radioButton" name="recommendation" checked/>Definitely</label>
+            <label><input value="2" type="radio" class="radioButton" name="recommendation" />Maybe</label>
+            <label><input value="3" type="radio" class="radioButton" name="recommendation" />Not Sure</label>
+            <label>What is your favorite trait about me?
+                <select>
+                    <option value="0" selected disabled>Select an option</option>
+                    <option value="1">Loves Challenges</option>
+                    <option value="2">Loves making Projects</option>
+                    <option value="3">Engages with the Community</option>
+                </select>
+            </label>
+            <label>What would you like to see improved? </label>
+            <label><input type="checkbox" class="checkbox" value="1">Nothing</label>
+            <label><input type="checkbox" class="checkbox" value="2">Nothing</label>
+            <label><input type="checkbox" class="checkbox" value="3">Nothing</label>
+            <label><input type="checkbox" class="checkbox" value="4">Nothing</label>
+            <label><input type="checkbox" class="checkbox" value="5">Nothing</label>
+            <label><input type="checkbox" class="checkbox" value="6">Nothing</label>
+            <label><input type="checkbox" class="checkbox" value="7">Nothing</label>
+            <label><input type="checkbox" class="checkbox" value="8">Nothing</label>
+            <label>Any comments or suggestions?
+                <textarea rows="4" cols="37" placeholder="Enter your comment here..."></textarea>
+            </label>
+        <input type="submit" id="submit" value="Submit" />
+        </form>
+    </body>
+</html>
