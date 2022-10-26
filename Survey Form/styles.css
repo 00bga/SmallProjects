@@ -1,0 +1,96 @@
+body {
+    background-color: #181a1b;
+    font-family: Tahoma, sans-serif;
+    color: #f5f6f7;
+    margin: 0;
+    width: 100%;
+}
+
+h1, p {
+    margin-left: 32rem;
+    margin-right: 32rem;
+    text-align: center;
+}
+
+h1 {
+    border-color: #ffffff;
+    border-style: solid;
+    border-radius: 20px;
+}
+form {
+    margin: 47px 350px 0;
+    text-align: left;
+    background-color: #1b1b32;
+    padding: 30px 40px 30px 35px;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0.5rem 1.5rem 0;
+    font-size: 1.2rem;
+}
+
+select {
+    display: block;
+    margin-right: 0;
+    background-color: #181a1b;
+    border-color: grey;
+    border-width: 0.1em;
+    border-radius: 0.25rem;
+    width: 100%;
+    height: 40px;
+    color: grey;
+}
+
+textarea {
+    display: block;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    background-color: #181a1b;
+    border-color: grey;
+    border-width: 0.1em;
+    border-radius: 0.18rem;
+    width: 100%;
+    max-width: 100%;
+    height: 125px;
+    color: #ffffff;
+}
+
+.image {
+    width: 1920px;
+    height: 100px;
+    object-fit: cover;
+}
+
+input[type="text"], input[type="number"], input[type="email"] {
+    background-color: #181a1b;
+    display: block;
+    border-color: grey;
+    border-width: 0.1em;
+    border-radius: 0.25rem;
+    width: 100%;
+    height: 35px;
+    color: #ffffff;
+}
+
+input[type="submit"] {
+    width: 100%;
+    height: 50px;
+    background-color: #42f551;
+    border-color: #42f551;
+    border-radius: 0.2rem;
+}
+
+.checkbox {
+    width: 18px;
+    height: 18px;
+}
+
+.radioButton {
+    width: 18px;
+    height: 18px;
+}
+
+::placeholder {
+    color: grey;
+    margin-left: 10px;
+ }
